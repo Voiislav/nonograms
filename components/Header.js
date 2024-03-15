@@ -14,7 +14,7 @@ export default class Header {
     this._controlSoundButton = document.createElement('button');
     this._controlSoundButton.className = 'header__button';
     const controlSoundIcon = document.createElement('img');
-    controlSoundIcon.src = '../images/sound-icon.svg';
+    controlSoundIcon.src = './images/sound-icon.svg';
     controlSoundIcon.alt = 'sound symbol';
     controlSoundIcon.className = 'header__button-icon';
     this._controlSoundButton.appendChild(controlSoundIcon);

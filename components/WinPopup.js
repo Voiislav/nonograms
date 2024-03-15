@@ -2,7 +2,7 @@ export default class WinPopup {
   constructor(timer) {
     this._winPopup = this._renderWinPopup();
     document.body.appendChild(this._winPopup);
-    this._victorySound = new Audio('../sounds/victory.mp3');
+    this._victorySound = new Audio('./sounds/victory.mp3');
     this._timer = timer;
   }
 

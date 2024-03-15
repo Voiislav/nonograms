@@ -18,7 +18,7 @@ export default class HighScorePopup {
     highScorePopupTitle.textContent = 'High score:';
     highScorePopupContainer.prepend(highScorePopupTitle);
     const highScorePopupCloseIcon = document.createElement('img');
-    highScorePopupCloseIcon.src = '../images/close-white.svg';
+    highScorePopupCloseIcon.src = './images/close-white.svg';
     highScorePopupCloseIcon.alt = 'icon of cross that uses for closing windows';
     highScorePopupCloseIcon.className = 'popup__close-icon';
     this._highScorePopupClose.appendChild(highScorePopupCloseIcon);

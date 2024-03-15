@@ -7,9 +7,9 @@ export default class GameCells {
     this._incorrectClicks = 0; // add incorrect clicks counter
     this._correctCells = [];
     this._winPopup = winPopup;
-    this._paintSound = new Audio('../sounds/in-black.mp3');
-    this._crossSound = new Audio('../sounds/cross.mp3');
-    this._clearSound = new Audio('../sounds/in-white.mp3');
+    this._paintSound = new Audio('./sounds/in-black.mp3');
+    this._crossSound = new Audio('./sounds/cross.mp3');
+    this._clearSound = new Audio('./sounds/in-white.mp3');
     this._sounds = [this._paintSound, this._crossSound, this._clearSound];
     this._crosses = [];
     this._timer = timer;

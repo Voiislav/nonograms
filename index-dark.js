@@ -1,6 +1,6 @@
 document.body.className = 'page';
 
-import * as templates from '../utils/templates.js'; // game templates (as matrices)
+import * as templates from './utils/templates.js'; // game templates (as matrices)
 
 import Header from "./components-dark/Header.js";
 import MainSection from "./components-dark/MainSection.js";
