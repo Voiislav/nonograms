@@ -23,4 +23,4 @@ This project is an implementation of the [Nonograms](https://en.wikipedia.org/wi
 * BEM methodology
 
 ## Links
-[Project link]()
+[Project link](https://voiislav.github.io/nonograms/)
