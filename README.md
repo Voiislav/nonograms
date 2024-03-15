@@ -19,6 +19,8 @@ This project is an implementation of the [Nonograms](https://en.wikipedia.org/wi
 * Interaction with **DOM** and **DOM events**
 * Working with JS data structures (*two-dimensional array*)
 * Working with **Data** JS object
+* OOP principles
+* BEM methodology
 
 ## Links
 [Project link]()
